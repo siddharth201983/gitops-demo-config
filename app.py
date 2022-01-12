@@ -30,7 +30,11 @@ def health():
 
 @app.route("/")
 def home():
+<<<<<<< HEAD
     return "Hello World! FROM MAIN BRANCH"
+=======
+    return "Hello World!"
+>>>>>>> 8e5eaba (init)
    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
